@@ -1,4 +1,4 @@
-import { expect, selectOption } from "@playwright/test";
+import { expect } from "@playwright/test";
 
 export class testRpgPage {
     constructor(page, context) {
@@ -15,7 +15,7 @@ export class testRpgPage {
         this.clickIt = page.locator('div.flex.items-center.justify-between > button');
         this.success = page.locator('.text-blue-500');
         this.clickSuccessText = 'Great job! You levelled up';
-        this.filePath = 'C:/Users/linkt/OneDrive/Desktop/pic.jpg'; // Replace with the actual path of the file
+        this.filePath = 'test-files/pic.jpg'; 
         this.uploadIt = 'input[type="file"]';
         this.uploadSuccessText = 'File selected, level up!';
         this.typeInput = page.locator('div> input');
