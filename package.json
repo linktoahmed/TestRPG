@@ -1,0 +1,22 @@
+{
+  "name": "testrpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linktoahmed/TestRPG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linktoahmed/TestRPG/issues"
+  },
+  "homepage": "https://github.com/linktoahmed/TestRPG#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.5.5"
+  }
+}
